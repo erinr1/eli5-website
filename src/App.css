@@ -1,0 +1,58 @@
+:root {
+  --primary-color: black;
+  --secondary-color: #ffffff;
+  --tertiary-color: #fadc56;
+  --main-font: Exo, sans-serif;
+}
+body {
+  color: var(--secondary-color);
+  font-family: var(--main-font);
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: (--tertiary-color);
+  transition: all 200ms ease;
+}
+
+a:hover {
+  color: var(--tertiary-color);
+}
+
+.site-images {
+  display: none;
+}
+
+a:hover .site-images {
+  display: block;
+  position: absolute;
+  max-width: 25%;
+  max-height: 25%;
+}
+
+.links-page {
+  background-color: var(--secondary-color);
+  text-align: center;
+}
+
+.link-button {
+  background-color: var(--primary-color) !important;
+  transition: all 0.2s ease-in-out;
+}
+.link-button:hover {
+  transform: scale(1.1);
+}
+
+.link-images {
+  max-width: 30px;
+}
+
+.links-social-icons {
+  color: var(--primary-color);
+  width: 40px;
+}
+
+.lens {
+  width: 25px;
+}
