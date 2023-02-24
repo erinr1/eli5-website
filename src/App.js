@@ -12,6 +12,12 @@ export default function App() {
       <div className="links-page justify-content-center">
         <div className="logo-container">
           {" "}
+          <h1 className="d-none">
+            ELI5 DAO stands for Explain It Like I am Five years old -
+            Decentralized Autonomous Organization (DAO). This DAO reviews tools
+            created for decentralized organizations and explains their use in an
+            easy-to-understand manner.
+          </h1>
           <img src={logo} alt="ELI5 Logo" className="logo-image img-fluid" />
         </div>
         <SocialLinks />
