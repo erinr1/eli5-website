@@ -26,7 +26,7 @@ export default function App() {
                 <img
                   src={charmverseLogo}
                   alt="charmverse"
-                  className="link-images border"
+                  className="link-images"
                 />
               </div>
               <div className="col-sm-11 pt-1 link-text">ELI5💡DAO Home 🏠</div>
