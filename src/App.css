@@ -4,31 +4,16 @@
   --tertiary-color: #fadc56;
   --main-font: Exo, sans-serif;
 }
-body {
-  color: var(--secondary-color);
+div.App {
+  color: var(--primary-color);
   font-family: var(--main-font);
 }
-
-a {
-  text-decoration: none;
-  font-size: 16px;
-  color: (--tertiary-color);
-  transition: all 200ms ease;
-}
-
-a:hover {
-  color: var(--tertiary-color);
+.logo-image {
+  height: 180px;
 }
 
 .site-images {
   display: none;
-}
-
-a:hover .site-images {
-  display: block;
-  position: absolute;
-  max-width: 25%;
-  max-height: 25%;
 }
 
 .links-page {
@@ -48,11 +33,28 @@ a:hover .site-images {
   max-width: 30px;
 }
 
+.link-text {
+  color: var(--tertiary-color);
+}
+
 .links-social-icons {
   color: var(--primary-color);
   width: 40px;
 }
 
+.links-social-icons:hover {
+  background-color: var(--tertiary-color);
+}
+
 .lens {
-  width: 25px;
+  width: 30px;
+}
+
+.tools-image {
+  max-width: 90%;
+  transition: all 0.2s ease-in-out;
+}
+
+.tools-image:hover {
+  transform: scale(1.1);
 }

@@ -1,127 +1,77 @@
 import "./App.css";
 import logo from "./images/logo.png";
-import twitterIcon from "./images/twitter.png";
-import discordIcon from "./images/discord.png";
-import emailIcon from "./images/email.png";
+import SocialLinks from "./SocialLinks";
+import charmverseLogo from "./images/charmverse.jpeg";
+import colonyLogo from "./images/colony.png";
+import snapshotLogo from "./images/snapshot.jpeg";
+import ToolsTested from "./ToolsTested";
 
 export default function App() {
   return (
-    <body className="App links-body">
-      <div className="links-page">
-        <h1 className="links-h1">
+    <div className="App links-body container mb-5">
+      <div className="links-page justify-content-center">
+        <div className="logo-container">
           {" "}
-          <img src={logo} alt="ELI5 Logo" />
-        </h1>
-        <div className="m-3">
-          <a
-            href="https://twitter.com/decentra_list"
-            target="_blank"
-            rel="noreferrer"
-            title="Twitter"
-          >
-            <img
-              src={twitterIcon}
-              alt="twitter icon"
-              className="links-social-icons"
-            />
-          </a>
-          <a
-            href="https://medium.com/@decentralist.com"
-            target="_blank"
-            rel="noreferrer"
-            title="Medium"
-          >
-            <img
-              src={discordIcon}
-              alt="discord icon"
-              className="links-social-icons"
-            />
-          </a>
-          <a
-            href="https://lenster.xyz/u/decentralist"
-            target="_blank"
-            rel="noreferrer"
-            title="Lenster"
-          >
-            <img
-              src="/images/lens.png"
-              alt="lens logo"
-              className="links-social-icons lens"
-            />
-          </a>
-          <a
-            href="https://www.youtube.com/@decentralist_com"
-            rel="noreferrer"
-            target="_blank"
-            title="YouTube"
-          >
-            <img
-              src={emailIcon}
-              alt="email icon"
-              className="links-social-icons"
-            />
-          </a>
+          <img src={logo} alt="ELI5 Logo" className="logo-image img-fluid" />
         </div>
-        <div className="d-grid gap-2 col-6 mx-auto">
+        <SocialLinks />
+        <div className="d-grid gap-2 col-8 mx-auto">
           <a
-            href="/"
-            title="Decentralist.com"
+            href="https://app.charmverse.io/invite/4c890f"
+            title="ELI5 DAO Home"
             className="btn btn-primary link-button"
           >
             <div className="row">
               <div className="col-sm-1">
                 <img
-                  src="/images/decentralist 2.png"
-                  alt="decentralist.com"
+                  src={charmverseLogo}
+                  alt="charmverse"
                   className="link-images border"
                 />
               </div>
-              <div className="col-sm-11 pt-1 link-text">
-                Decentralist<span className="logo-period">.</span>com Website
-              </div>
+              <div className="col-sm-11 pt-1 link-text">ELI5💡DAO Home 🏠</div>
             </div>
           </a>
           <a
-            href="https://www.decentralist.com/list-of-daos"
+            href="https://xdai.colony.io/colony/eli5"
             target="_blank"
             rel="noreferrer"
-            title="List of DAOs"
+            title="DAO Governance"
             className="btn btn-primary link-button"
           >
             <div className="row">
               <div className="col-sm-1">
                 <img
-                  src="/images/LOD-favicon.jpeg"
-                  alt="list of daos favicon"
+                  src={colonyLogo}
+                  alt="Colony favicon"
                   className="link-images"
                 />
               </div>
-              <div className="col-sm-11 pt-1 link-text">List of DAOs</div>
+              <div className="col-sm-11 pt-1 link-text">DAO Governance</div>
             </div>
           </a>
 
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdnmEO24xOxi5zg81qGsPB-YdJTwNKx8sEVkSvc8VstcKtbvQ/viewform"
+            href="https://snapshot.org/#/eli5%F0%9F%92%A1dao.eth"
             target="_blank"
             rel="noreferrer"
-            title="Add a DAO Form"
+            title="Snapshot Voting"
             className="btn btn-primary link-button"
           >
             <div className="row">
               <div className="col-sm-1">
                 <img
-                  src="/images/plus.png"
+                  src={snapshotLogo}
                   alt="add button"
                   className="link-images"
                 />
               </div>
-              <div className="col-sm-11 pt-1 link-text">
-                Add a DAO Form: List of DAOs
-              </div>
+              <div className="col-sm-11 pt-1 link-text">Snapshot Voting</div>
             </div>
           </a>
         </div>
+        <ToolsTested />
       </div>
-    </body>
+    </div>
   );
 }
