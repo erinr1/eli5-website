@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import logo from "./images/logo.png";
 import SocialLinks from "./SocialLinks";
@@ -5,6 +6,7 @@ import charmverseLogo from "./images/charmverse.jpeg";
 import colonyLogo from "./images/colony.png";
 import snapshotLogo from "./images/snapshot.jpeg";
 import ToolsTested from "./ToolsTested";
+import { Link } from "react-router-dom";
 
 export default function App() {
   return (
@@ -77,6 +79,10 @@ export default function App() {
           </a>
         </div>
         <ToolsTested />
+        <div className="redirection-link">
+          {" "}
+          <Link to="/disclaimer">Disclaimer</Link>
+        </div>
       </div>
     </div>
   );

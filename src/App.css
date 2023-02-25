@@ -58,3 +58,6 @@ div.App {
 .tools-image:hover {
   transform: scale(1.1);
 }
+.redirection-link {
+  margin-top: 50px;
+}
