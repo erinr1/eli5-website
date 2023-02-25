@@ -79,7 +79,7 @@ export default function App() {
           </a>
         </div>
         <ToolsTested />
-        <div className="redirection-link">
+        <div className="d-none redirection-link">
           {" "}
           <Link to="/disclaimer">Disclaimer</Link>
         </div>
