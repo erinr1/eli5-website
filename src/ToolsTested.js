@@ -24,11 +24,7 @@ export default function ToolsTested() {
           </a>
         </div>
         <div className="col-sm-4 ">
-          <a
-            href="https://www.decentralist.com/list-of-dao-tools/samudai"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="" target="_blank" rel="noreferrer">
             <img
               src={samudaiTested}
               alt="samudai tested logo"
