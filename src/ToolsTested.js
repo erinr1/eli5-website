@@ -1,6 +1,6 @@
 import React from "react";
 import colonyTested from "./images/colonytested.jpg";
-import samudaiTested from "./images/samudai.jpg";
+import samudaiTested from "./images/samudaitested.png";
 import commongroundTested from "./images/commonground.jpg";
 
 export default function ToolsTested() {
