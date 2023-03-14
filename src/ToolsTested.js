@@ -51,7 +51,6 @@ export default function ToolsTested() {
           </a>
         </div>
         <div className="col-md-4"></div>
-
         <div className="col-md-4">
           <a href="https://daohaus.club/" target="_blank" rel="noreferrer">
             <img
