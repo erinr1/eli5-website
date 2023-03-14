@@ -2,6 +2,7 @@ import React from "react";
 import colonyTested from "./images/colonytested.jpg";
 import samudaiTested from "./images/samudaitested.png";
 import commongroundTested from "./images/commonground.jpg";
+import daohausTested from "./images/daohaus.jpg";
 
 export default function ToolsTested() {
   return (
@@ -10,7 +11,7 @@ export default function ToolsTested() {
         <strong>Tools 🛠️ Tested</strong>
       </h5>
       <div className="row">
-        <div className="col-sm-4">
+        <div className="col-md-4">
           <a
             href="https://www.decentralist.com/list-of-dao-tools/colony"
             target="_blank"
@@ -23,7 +24,7 @@ export default function ToolsTested() {
             />
           </a>
         </div>
-        <div className="col-sm-4 ">
+        <div className="col-md-4 ">
           <a
             href="https://www.decentralist.com/list-of-dao-tools/samudai"
             target="_blank"
@@ -36,7 +37,7 @@ export default function ToolsTested() {
             />
           </a>
         </div>
-        <div className="col-sm-4">
+        <div className="col-md-4">
           <a
             href="https://www.commonground.cg/"
             target="_blank"
@@ -45,6 +46,17 @@ export default function ToolsTested() {
             <img
               src={commongroundTested}
               alt="common ground tested logo"
+              className="tools-image"
+            />
+          </a>
+        </div>
+        <div className="col-md-4"></div>
+
+        <div className="col-md-4">
+          <a href="https://daohaus.club/" target="_blank" rel="noreferrer">
+            <img
+              src={daohausTested}
+              alt="daohaus tested logo"
               className="tools-image"
             />
           </a>
