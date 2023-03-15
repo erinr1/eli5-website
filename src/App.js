@@ -7,6 +7,7 @@ import colonyLogo from "./images/colony.png";
 import snapshotLogo from "./images/snapshot.jpeg";
 import ToolsTested from "./ToolsTested";
 import { Link } from "react-router-dom";
+import CookieConsent from "react-cookie-consent";
 
 export default function App() {
   return (
@@ -84,6 +85,16 @@ export default function App() {
           <Link to="/disclaimer">Disclaimer</Link>
         </div>
       </div>
+      <CookieConsent
+        enableDeclineButton
+        flipButtons
+        style={{ background: "black" }}
+        buttonText="I Agree"
+        declineButtonStyle={{ background: "gray", color: "black" }}
+        expires={1}
+      >
+        This website uses cookies to enhance the user experience.
+      </CookieConsent>
     </div>
   );
 }
