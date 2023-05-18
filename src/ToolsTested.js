@@ -10,7 +10,7 @@ export default function ToolsTested() {
       <h5 className="mb-3">
         <strong>Tools 🛠️ Tested</strong>
       </h5>
-      <div className="row">
+      <div className="row ">
         <div className="col-md-4">
           <a
             href="https://www.decentralist.com/list-of-dao-tools/colony"
