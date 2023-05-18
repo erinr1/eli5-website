@@ -83,7 +83,7 @@ export default function App() {
           </a>
         </div>
         <ToolsTested />
-        <div className="footer">
+        <div className=" d-none footer">
           <div className="row">
             <div className="col-md-9">
               <img
@@ -91,6 +91,8 @@ export default function App() {
                 alt="ELI5 DAO logo"
                 className="footer-logo"
               ></img>
+              <SocialLinks />
+
               <h5 className="disclaimer-heading">Impartiality Disclaimer</h5>
               <p className="disclaimer">
                 Impartiality, integrity, and objectivity are fundamental values
@@ -109,28 +111,6 @@ export default function App() {
             <div className="col-md-3 border-start border-dark">
               <div className="footer-links">
                 <a
-                  href="https://app.charmverse.io/invite/4c890f"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  DAO Home
-                </a>
-              </div>
-              <div className="footer-links">
-                <a
-                  href="https://xdai.colony.io/colony/eli5"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  DAO Governance
-                </a>
-              </div>
-              <div className="d-none footer-links">
-                {" "}
-                <Link to="/disclaimer">Legal Disclaimer</Link>
-              </div>
-              <div className="footer-links">
-                <a
                   href="https://github.com/KryptoShrimp/ELI5DAO"
                   target="_blank"
                   rel="noreferrer"
@@ -138,11 +118,21 @@ export default function App() {
                   Media Kit
                 </a>
               </div>
-              <SocialLinks />
+              <div className="footer-links">
+                <Link to="/termsservice">Terms of Service</Link>
+              </div>
+              <div className="footer-links">
+                <Link to="/privacypolicy">Privacy Policy</Link>
+              </div>
+
+              <div className="footer-links">
+                {" "}
+                <Link to="/disclaimer">Legal Disclaimer</Link>
+              </div>
               <img
                 src={slurtle}
                 alt="ELI5 DAO mascot"
-                className="footer-mascot"
+                className="footer-mascot mb-2"
               />
             </div>
           </div>

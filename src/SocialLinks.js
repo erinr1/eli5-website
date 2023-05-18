@@ -6,7 +6,7 @@ import lensIcon from "./images/lens.png";
 
 export default function SocialLinks() {
   return (
-    <div className="SocialLinks m-3">
+    <div className="SocialLinks mb-3">
       <a
         href="https://twitter.com/ELI5DAO"
         target="_blank"
