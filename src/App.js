@@ -1,6 +1,9 @@
 import React from "react";
 import "./App.css";
 import logo from "./images/logotag.png";
+import eli5Logo from "./images/eli5logo.png";
+import slurtle from "./images/slurtle-gm.png";
+
 import SocialLinks from "./SocialLinks";
 import charmverseLogo from "./images/charmverse.jpeg";
 import colonyLogo from "./images/colony.png";
@@ -80,15 +83,53 @@ export default function App() {
           </a>
         </div>
         <ToolsTested />
-        <div className="d-none footer mt-5">
+        <div className="footer">
           <div className="row">
-            <div className="col-sm-8">This is the disclaimer</div>
-            <div className="col-sm-4">
-              <div>
+            <div className="col-md-9">
+              <img
+                src={eli5Logo}
+                alt="ELI5 DAO logo"
+                className="footer-logo"
+              ></img>
+              <h5 className="disclaimer-heading">Impartiality Disclaimer</h5>
+              <p className="disclaimer">
+                Impartiality, integrity, and objectivity are fundamental values
+                of ELI5 DAO. Accordingly, ELI5 DAO members are compelled to give
+                honest reviews of products and shall not be swayed by potential
+                conflicts of interest. Maintaining honesty and impartiality
+                instills trust and confidence in the web3 community and our
+                practice of testing DAO tools. For this reason, ELI5 DAO members
+                have agreed to take an agnostic approach and have no prejudices
+                toward any specific tool, application, protocol, etc. All
+                statements and/or opinions expressed in these materials are
+                solely the opinions and the responsibility of the person, or
+                entity providing those materials.
+              </p>
+            </div>
+            <div className="col-md-3 border-start border-dark">
+              <div className="footer-links">
+                <a
+                  href="https://app.charmverse.io/invite/4c890f"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  DAO Home
+                </a>
+              </div>
+              <div className="footer-links">
+                <a
+                  href="https://xdai.colony.io/colony/eli5"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  DAO Governance
+                </a>
+              </div>
+              <div className="d-none footer-links">
                 {" "}
                 <Link to="/disclaimer">Legal Disclaimer</Link>
               </div>
-              <div>
+              <div className="footer-links">
                 <a
                   href="https://github.com/KryptoShrimp/ELI5DAO"
                   target="_blank"
@@ -98,6 +139,11 @@ export default function App() {
                 </a>
               </div>
               <SocialLinks />
+              <img
+                src={slurtle}
+                alt="ELI5 DAO mascot"
+                className="footer-mascot"
+              />
             </div>
           </div>
         </div>

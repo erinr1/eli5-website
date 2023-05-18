@@ -67,3 +67,36 @@ a:hover {
 .tools-image:hover {
   transform: scale(1.1);
 }
+
+.footer {
+  margin-top: 100px;
+  padding: 20px;
+  border: 2px solid #ffcc33;
+  border-radius: 10px;
+}
+
+.disclaimer-heading {
+  text-align: left;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.disclaimer {
+  text-align: left;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.footer-logo {
+  max-width: 50%;
+  margin-bottom: 15px;
+}
+
+.footer-links {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.footer-mascot {
+  max-width: 75%;
+}
