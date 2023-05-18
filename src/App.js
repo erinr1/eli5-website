@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import logo from "./images/logo.png";
+import logo from "./images/logotag.png";
 import SocialLinks from "./SocialLinks";
 import charmverseLogo from "./images/charmverse.jpeg";
 import colonyLogo from "./images/colony.png";
@@ -80,9 +80,26 @@ export default function App() {
           </a>
         </div>
         <ToolsTested />
-        <div className="d-none redirection-link">
-          {" "}
-          <Link to="/disclaimer">Disclaimer</Link>
+        <div className="d-none footer mt-5">
+          <div className="row">
+            <div className="col-sm-8">This is the disclaimer</div>
+            <div className="col-sm-4">
+              <div>
+                {" "}
+                <Link to="/disclaimer">Legal Disclaimer</Link>
+              </div>
+              <div>
+                <a
+                  href="https://github.com/KryptoShrimp/ELI5DAO"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Media Kit
+                </a>
+              </div>
+              <SocialLinks />
+            </div>
+          </div>
         </div>
       </div>
       <CookieConsent
