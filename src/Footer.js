@@ -51,7 +51,7 @@ export default function Footer() {
           <img
             src={slurtle}
             alt="ELI5 DAO mascot"
-            className="footer-mascot m-b2"
+            className="footer-mascot mt-5"
           />
         </div>
       </div>
