@@ -102,12 +102,14 @@ export default function Disclaimer() {
           any third parties.
         </p>
         <div className="redirection-link m-5">
-          <img
-            src={slurtle}
-            alt="ELI5 DAO mascot"
-            className="disclaimers-mascot"
-          />
           <Link to="/">Return to ELI5 Homepage</Link>
+          <div>
+            <img
+              src={slurtle}
+              alt="ELI5 DAO mascot"
+              className="disclaimers-mascot"
+            />
+          </div>
         </div>
       </div>
     </div>
