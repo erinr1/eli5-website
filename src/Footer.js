@@ -37,7 +37,7 @@ export default function Footer() {
               Media Kit
             </a>
           </div>
-          <div className="d-none footer-links">
+          <div className="footer-links">
             <Link to="/termsservice">Terms of Service</Link>
           </div>
           <div className="d-none footer-links">
