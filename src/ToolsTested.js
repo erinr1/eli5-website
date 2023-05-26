@@ -1,7 +1,7 @@
 import React from "react";
 import colonyTested from "./images/colonytested.jpg";
-import samudaiTested from "./images/samudaitested.png";
-import commongroundTested from "./images/commonground.jpg";
+import samudaiTested from "./images/samudaitested.jpg";
+import commongroundTested from "./images/cgtested.jpg";
 import daohausTested from "./images/daohaus.jpg";
 
 export default function ToolsTested() {
@@ -39,7 +39,7 @@ export default function ToolsTested() {
         </div>
         <div className="col-md-4">
           <a
-            href="https://www.commonground.cg/"
+            href="https://www.decentralist.com/list-of-dao-tools/common-ground"
             target="_blank"
             rel="noreferrer"
           >
