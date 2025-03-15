@@ -77,7 +77,7 @@ export default function App() {
                   className="link-images"
                 />
               </div>
-              <div className="col-sm-11 pt-1 link-text">Snapshot Voting</div>
+              <div className="col-sm-11 pt-1 link-text">Snapshot Voting 🗳️</div>
             </div>
           </a>
         </div>
